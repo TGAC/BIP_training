@@ -1,7 +1,7 @@
-Accession_name,originating_organisation,year_produced,Line_name,cultivar_name,genetic_status
+Accession_name,originating_organisation,year_produced,Line_name,cultivar_name,genetic_status of founder line
 JIC09_BnaDFFS001,JIC,2009,BnaDFFS001,AMBER X COMMANCHE DH LINE,DH
 JIC09_BnaDFS002,JIC,2009,BnaDFS002,APEX,DH
-JIC09_BnaDFFS003,JIC,2009,BnaDFFS003,APEX-93_5 X GINYOU_3 DH LINE,DH}
+JIC09_BnaDFFS003,JIC,2009,BnaDFFS003,APEX-93_5 X GINYOU_3 DH LINE,DH
 JIC09_BnaDFFS004,JIC,2009,BnaDFFS004,BIENVENU DH4,unknown
 JIC09_BnaDFFS005,JIC,2009,BnaDFFS005,BRYAN x FORTRESS DH LINE,DH
 JIC09_BnaDFFS006,JIC,2009,BnaDFFS006,CANBERRA x COURAGE DH LINE,Backcross
