@@ -86,7 +86,6 @@ VARIETY = 4
 ACCESSION_SOURCE = 1
 YEAR_PRODUCED = 2
 GENETIC_STATUS = 5
-SEQUENCE_ID = 6
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -113,7 +112,7 @@ end
 
 
 # Function that finds or submits plant_lines
-def record_plant_line(plant_line_name, plant_variety_id, genetic_status, sequence_identifier)   # workshop notes: add the genetic status here: ,genetic_status]
+def record_plant_line(plant_line_name, plant_variety_id, genetic_status)   # workshop notes: add the genetic status here: ,genetic_status]
   request = Net::HTTP::Get.new("/api/v1/plant_lines?plant_line[query][plant_line_name]=#{URI.escape plant_line_name}", @headers)
   response = call_bip request
   if response['meta']['total_count'] == 0
