@@ -119,7 +119,7 @@ def record_plant_line(plant_line_name, plant_variety_id, genetic_status)   # wor
     create_record('plant_line',
       plant_line_name: plant_line_name,
       plant_variety_id: plant_variety_id , #  <<-   workshop notes: add a comma here , so it looks like:  plant_variety_id: plant_variety_id,
-      genetic_status: 'genetic_status'  #  remove the first '#' hashkey. This will add the submission of the genetic status object to the database.
+      genetic_status: genetic_status  #  remove the first '#' hashkey. This will add the submission of the genetic status object to the database.
     )
   else
     response['plant_lines'][0]['id']
