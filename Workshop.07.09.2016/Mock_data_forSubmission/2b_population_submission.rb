@@ -71,15 +71,17 @@ end
 puts " 1. Creating experimental plant_population "
 
 plant_population_id = create_record('plant_population',
-  name: 'workshop_test_pop_genstat', # for workshop: put a random number behind the population
-  description: 'descr workshop_test_pop',
-  establishing_organisation: 'EI',
+  name: 'BnaDFFS_genstat', # for workshop: put a random number behind the population, as we are all using hte same population and don't want to produce duplicates.
+  description: 'a random description of the BnaDFFS_genstat descirption used in the data upload workshop ',
+  establishing_organisation: 'JIC',
   population_type_id: 3 , # Dh segregating:1 ,DFS:2 , DFFS: 3,F3 pooled:4 , Recombinant inbred: 5, F1 hybrid:6, Back Cross: 7
   taxonomy_term_id: 27  # Brassica napus id in BIP  27, Brassica oleracea: 32, Brassica rapa:1
 )
 
 
 #defining input columns from CSV
+
+# for workshop: add the column number from you CSV beside the correct variable.
 ACCESSION_NAME = 0
 LINE_NAME = 3
 VARIETY = 4
@@ -87,6 +89,8 @@ ACCESSION_SOURCE = 1
 YEAR_PRODUCED = 2
 GENETIC_STATUS = 5
 
+
+# ALTERING THE RUBY CLIENT: add a new variable GENETIC_STATUS below  YEAR_PRODUCED and assign it to the number the column in your .csv file corresponds to.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -168,7 +172,7 @@ CSV.foreach(ARGV[0]) do |row|
 
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id, row[GENETIC_STATUS])#  workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
+  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id, row[GENETIC_STATUS])# ALTERING THE RUBY CLIENT; workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   associate_line_with_population(plant_line_id, plant_population_id)

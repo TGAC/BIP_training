@@ -71,20 +71,25 @@ end
 puts " 1. Creating experimental plant_population "
 
 plant_population_id = create_record('plant_population',
-  name: 'workshop_test_pop', # for workshop: put a random number behind the population
-  description: 'descr workshop_test_pop',
-  establishing_organisation: 'EI',
+  name: '', # for workshop: put a random number behind the population, as we are all using hte same population and don't want to produce duplicates.
+  description: '',
+  establishing_organisation: '',
+  population_type_id: 3 , # Dh segregating:1 ,DFS:2 , DFFS: 3,F3 pooled:4 , Recombinant inbred: 5, F1 hybrid:6, Back Cross: 7
   taxonomy_term_id: 27  # Brassica napus id in BIP  27, Brassica oleracea: 32, Brassica rapa:1
 )
 
 
 #defining input columns from CSV
-ACCESSION_NAME = 0
-LINE_NAME = 3
-VARIETY = 4
-ACCESSION_SOURCE = 1
-YEAR_PRODUCED = 2
 
+# for workshop: open your CSV and add the column number of the header that corresponds to the correct variable below
+ACCESSION_NAME =
+LINE_NAME =
+VARIETY =
+ACCESSION_SOURCE =
+YEAR_PRODUCED =
+
+
+# ALTERING THE RUBY CLIENT: add a new variable GENETIC_STATUS below  YEAR_PRODUCED and assign it to the number the column in your .csv file corresponds to.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -163,14 +168,14 @@ CSV.foreach(ARGV[0]) do |row|
   next if row[0]== 'Accession_name' # omit the header
   puts "  * processing Accession  #{row[ACCESSION_NAME]}"
   plant_variety_id = record_plant_variety(row[VARIETY])
-  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id)
 
+    # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id) #  ALTERING THE RUBY CLIENT; workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  associate_line_with_population(plant_line_id, plant_population_id) # workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
+  associate_line_with_population(plant_line_id, plant_population_id)
 
-  # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   record_plant_accession(row[ACCESSION_NAME], row[ACCESSION_SOURCE], row[YEAR_PRODUCED], plant_line_id)
 end
 
