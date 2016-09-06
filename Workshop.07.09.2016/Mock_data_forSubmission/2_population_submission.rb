@@ -74,7 +74,6 @@ plant_population_id = create_record('plant_population',
   name: 'workshop_test_pop', # for workshop: put a random number behind the population
   description: 'descr workshop_test_pop',
   establishing_organisation: 'EI',
-  population_type_id: 3 , # Dh segregating:1 ,DFS:2 , DFFS: 3,F3 pooled:4 , Recombinant inbred: 5, F1 hybrid:6, Back Cross: 7
   taxonomy_term_id: 27  # Brassica napus id in BIP  27, Brassica oleracea: 32, Brassica rapa:1
 )
 
