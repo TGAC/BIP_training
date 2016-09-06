@@ -71,9 +71,9 @@ end
 puts " 1. Creating experimental plant_population "
 
 plant_population_id = create_record('plant_population',
-  name: '', # for workshop: put your groupe number behind the population, as we are all using the same population and don't want to produce duplicates.
-  description: '',
-  establishing_organisation: '',
+  name: 'BnaDFFS_genstat', # for workshop: put a random number behind the population, as we are all using hte same population and don't want to produce duplicates.
+  description: 'a random description of the BnaDFFS_genstat descirption used in the data upload workshop ',
+  establishing_organisation: 'JIC',
   population_type_id: 3 , # Dh segregating:1 ,DFS:2 , DFFS: 3,F3 pooled:4 , Recombinant inbred: 5, F1 hybrid:6, Back Cross: 7
   taxonomy_term_id: 27  # Brassica napus id in BIP  27, Brassica oleracea: 32, Brassica rapa:1
 )
@@ -81,12 +81,13 @@ plant_population_id = create_record('plant_population',
 
 #defining input columns from CSV
 
-# for workshop: add the column number from your CSV beside the correct variable.
-ACCESSION_NAME =
-LINE_NAME =
-VARIETY =
-ACCESSION_SOURCE =
-YEAR_PRODUCED =
+# for workshop: add the column number from you CSV beside the correct variable.
+ACCESSION_NAME = 0
+LINE_NAME = 3
+VARIETY = 4
+ACCESSION_SOURCE = 1
+YEAR_PRODUCED = 2
+GENETIC_STATUS = 5
 
 
 # ALTERING THE RUBY CLIENT: add a new variable GENETIC_STATUS below  YEAR_PRODUCED and assign it to the number the column in your .csv file corresponds to.
@@ -115,14 +116,14 @@ end
 
 
 # Function that finds or submits plant_lines
-def record_plant_line(plant_line_name, plant_variety_id)   # workshop notes: add the genetic status here: ,genetic_status]
+def record_plant_line(plant_line_name, plant_variety_id, genetic_status)   # workshop notes: add the genetic status here: ,genetic_status]
   request = Net::HTTP::Get.new("/api/v1/plant_lines?plant_line[query][plant_line_name]=#{URI.escape plant_line_name}", @headers)
   response = call_bip request
   if response['meta']['total_count'] == 0
     create_record('plant_line',
       plant_line_name: plant_line_name,
-      plant_variety_id: plant_variety_id  #  <<-   workshop notes: add a comma here , so it looks like:  plant_variety_id: plant_variety_id,
-      # genetic_status: genetic_status   #  remove the first '#' hashkey. This will add the submission of the genetic status object to the database.
+      plant_variety_id: plant_variety_id , #  <<-   workshop notes: add a comma here , so it looks like:  plant_variety_id: plant_variety_id,
+      genetic_status: genetic_status  #  remove the first '#' hashkey. This will add the submission of the genetic status object to the database.
     )
   else
     response['plant_lines'][0]['id']
@@ -171,7 +172,7 @@ CSV.foreach(ARGV[0]) do |row|
 
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id) #  ALTERING THE RUBY CLIENT; workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
+  plant_line_id = record_plant_line(row[LINE_NAME], plant_variety_id, row[GENETIC_STATUS])# ALTERING THE RUBY CLIENT; workshop notes: add the genetic status here: ,row[GENETIC_STATUS]
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   associate_line_with_population(plant_line_id, plant_population_id)
