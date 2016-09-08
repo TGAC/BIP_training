@@ -1,4 +1,4 @@
-#README
+#Information on workshop material used on the 07.09.2016
 
 The material available in this folder was used in a workshop on the 07.09.2016 at the Earlaham Institute.
 
