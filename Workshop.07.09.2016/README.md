@@ -9,7 +9,7 @@ For doing the exercised in your own time:
 * contact <a href="mailto:bip@earlham.ac.uk">bip@earlham.ac.uk</a> and let us know that you would like to do the workshop
   * We will delet the mock-data you uploaded after you finished the exercises.
 * Please clone or download the repository to your computer
-* Pick a workshop-group (1-5) and open the folder
+* Pick a workshop-group (1-5) from folder [Mock_data_forSubmission](https://github.com/TGAC/BIP_training/tree/master/Workshop.07.09.2016/Mock_data_forSubmission) and open the folder
   * The folder of each group contains very similar files. 
   * They will be the files the manual refers to.
 * open the manual and follow the instructions
