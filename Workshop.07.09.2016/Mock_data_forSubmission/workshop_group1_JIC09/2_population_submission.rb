@@ -71,9 +71,9 @@ end
 puts " 1. Creating experimental plant_population "
 
 plant_population_id = create_record('plant_population',
-  name: '', # for workshop: put your groupe number behind the population, as we are all using the same population and don't want to produce duplicates.
-  description: '',
-  establishing_organisation: '',
+  name: 'BnaDFFS2016_1', # for workshop: put your groupe number behind the population, as we are all using the same population and don't want to produce duplicates.
+  description: 'a description',
+  establishing_organisation: 'RRES',
   population_type_id: 3 , # Dh segregating:1 ,DFS:2 , DFFS: 3,F3 pooled:4 , Recombinant inbred: 5, F1 hybrid:6, Back Cross: 7
   taxonomy_term_id: 27  # Brassica napus id in BIP  27, Brassica oleracea: 32, Brassica rapa:1
 )
@@ -82,11 +82,11 @@ plant_population_id = create_record('plant_population',
 #defining input columns from CSV
 
 # for workshop: add the column number from your CSV beside the correct variable.
-ACCESSION_NAME =
-LINE_NAME =
-VARIETY =
-ACCESSION_SOURCE =
-YEAR_PRODUCED =
+ACCESSION_NAME = 0
+LINE_NAME = 3
+VARIETY = 1
+ACCESSION_SOURCE =1
+YEAR_PRODUCED =2
 
 
 # ALTERING THE RUBY CLIENT: add a new variable GENETIC_STATUS below  YEAR_PRODUCED and assign it to the number the column in your .csv file corresponds to.
