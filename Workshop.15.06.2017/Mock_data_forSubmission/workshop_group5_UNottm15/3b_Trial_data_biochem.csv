@@ -1,0 +1,58 @@
+BIP_Accession_Name,sample_id,sample,polytunnel,rep,sub_block,pot_number,line_number,Collaborator1_name,Internal_accession_name,Accession_Name,Originating organisation,JIC_internal_accession_id,cultivar_name,ug/g,Brassicasterol
+U.Nottm15_BnaDFFS001,p_028,28,1,1,1,46,3,BnaDFFS001,BnaDFFS001,U.Nottm15_BnaDFFS001,University of Nottingham,s-00001,Amber X Commanche  ,,1067.32
+U.Nottm15_BnaDFFS001,p_009,9,2,2,2,47,3,BnaDFFS001,BnaDFFS001,U.Nottm15_BnaDFFS001,University of Nottingham,s-00001,Amber X Commanche  ,,498.62
+U.Nottm15_BnaDFFS001,p_066,66,1,3,3,48,3,BnaDFFS001,BnaDFFS001,U.Nottm15_BnaDFFS001,University of Nottingham,s-00001,Amber X Commanche  ,,70.08
+U.Nottm15_BnaDFFS002,p_003,3,2,1,4,49,5,BnaDFS002,BnaDFS002,U.Nottm15_BnaDFFS002,University of Nottingham,s-00002,Apex,,1237.15
+U.Nottm15_BnaDFFS002,p_014,14,1,2,5,50,5,BnaDFS002,BnaDFS002,U.Nottm15_BnaDFFS002,University of Nottingham,s-00002,Apex,,467.5
+U.Nottm15_BnaDFFS002,p_023,23,2,3,6,51,5,BnaDFS002,BnaDFS002,U.Nottm15_BnaDFFS002,University of Nottingham,s-00002,Apex,,467.5
+U.Nottm15_BnaDFFS003,p_027,27,2,1,7,52,7,BnaDFFS003 Ref1,BnaDFFS003,U.Nottm15_BnaDFFS003,University of Nottingham,s-00003,Apex-93_5 X Ginyou_3  ,,1175.69
+U.Nottm15_BnaDFFS003,p_031,31,1,2,1,53,7,BnaDFFS003 Ref1,BnaDFFS003,U.Nottm15_BnaDFFS003,University of Nottingham,s-00003,Apex-93_5 X Ginyou_3  ,,436.37
+U.Nottm15_BnaDFFS003,p_032,32,2,3,2,54,7,BnaDFFS003 Ref1,BnaDFFS003,U.Nottm15_BnaDFFS003,University of Nottingham,s-00003,Apex-93_5 X Ginyou_3  ,,1175.69
+U.Nottm15_BnaDFFS004,p_042,42,2,1,3,55,14,BnaDFFS004,BnaDFFS004,U.Nottm15_BnaDFFS004,University of Nottingham,s-00004,Bienvenu 4,,1072.56
+U.Nottm15_BnaDFFS004,p_043,43,1,2,4,56,14,BnaDFFS004,BnaDFFS004,U.Nottm15_BnaDFFS004,University of Nottingham,s-00004,Bienvenu 4,,405.25
+U.Nottm15_BnaDFFS004,p_056,56,1,3,5,27,14,BnaDFFS004,BnaDFFS004,U.Nottm15_BnaDFFS004,University of Nottingham,s-00004,Bienvenu 4,,405.25
+U.Nottm15_BnaDFFS005,p_065,65,2,1,6,28,17,BnaDFFS005,BnaDFFS005,U.Nottm15_BnaDFFS005,University of Nottingham,s-00005,Bryan X Fortress  ,,896.17
+U.Nottm15_BnaDFFS005,p_005,5,2,2,7,29,17,BnaDFFS005,BnaDFFS005,U.Nottm15_BnaDFFS005,University of Nottingham,s-00005,Bryan X Fortress  ,,374.12
+U.Nottm15_BnaDFFS005,p_010,10,1,3,1,30,17,BnaDFFS005,BnaDFFS005,U.Nottm15_BnaDFFS005,University of Nottingham,s-00005,Bryan X Fortress  ,,896.17
+U.Nottm15_BnaDFFS006,p_019,19,1,1,2,31,21,BnaDFFS006,BnaDFFS006,U.Nottm15_BnaDFFS006,University of Nottingham,s-00006,Canberra X Courage  ,,982.43
+U.Nottm15_BnaDFFS006,p_022,22,1,2,3,32,21,BnaDFFS006,BnaDFFS006,U.Nottm15_BnaDFFS006,University of Nottingham,s-00006,Canberra X Courage  ,,343
+U.Nottm15_BnaDFFS006,p_030,30,1,3,4,33,21,BnaDFFS006,BnaDFFS006,U.Nottm15_BnaDFFS006,University of Nottingham,s-00006,Canberra X Courage  ,,1058.63
+U.Nottm15_BnaDFFS007,p_033,33,2,1,5,34,23,BnaDFFS007,BnaDFFS007,U.Nottm15_BnaDFFS007,University of Nottingham,s-00007,Capricorn 1,,959.2
+U.Nottm15_BnaDFFS007,p_041,41,2,2,6,35,23,BnaDFFS007,BnaDFFS007,U.Nottm15_BnaDFFS007,University of Nottingham,s-00007,Capricorn 1,,311.87
+U.Nottm15_BnaDFFS007,p_044,44,1,3,7,36,23,BnaDFFS007,BnaDFFS007,U.Nottm15_BnaDFFS007,University of Nottingham,s-00007,Capricorn 1,,218.5
+U.Nottm15_BnaDFFS008,p_052,52,2,1,1,37,28,BnaDFFS008,BnaDFFS008,U.Nottm15_BnaDFFS008,University of Nottingham,s-00008,Columbus X Nickel  ,,1137.98
+U.Nottm15_BnaDFFS008,p_061,61,2,2,2,64,28,BnaDFFS008,BnaDFFS008,U.Nottm15_BnaDFFS008,University of Nottingham,s-00008,Columbus X Nickel  ,,280.75
+U.Nottm15_BnaDFFS008,p_064,64,1,3,3,1,28,BnaDFFS008,BnaDFFS008,U.Nottm15_BnaDFFS008,University of Nottingham,s-00008,Columbus X Nickel  ,,572.4
+U.Nottm15_BnaDFFS009,p_015,15,1,1,4,2,30,BnaDFFS009,BnaDFFS009,U.Nottm15_BnaDFFS009,University of Nottingham,s-00009,Darmor,,1058.63
+U.Nottm15_BnaDFFS009,p_026,26,2,2,5,3,30,BnaDFFS009,BnaDFFS009,U.Nottm15_BnaDFFS009,University of Nottingham,s-00009,Darmor,,249.62
+U.Nottm15_BnaDFFS009,p_057,57,1,3,6,4,30,BnaDFFS009,BnaDFFS009,U.Nottm15_BnaDFFS009,University of Nottingham,s-00009,Darmor,,94
+U.Nottm15_BnaDFFS010,p_001,1,1,1,7,5,35,BnaDFFS010,BnaDFFS010,U.Nottm15_BnaDFFS010,University of Nottingham,s-00010,Hansen X Gaspard  ,,854.68
+U.Nottm15_BnaDFFS010,p_006,6,1,2,1,6,35,BnaDFFS010,BnaDFFS010,U.Nottm15_BnaDFFS010,University of Nottingham,s-00010,Hansen X Gaspard  ,,218.5
+U.Nottm15_BnaDFFS010,p_011,11,1,3,2,7,35,BnaDFFS010,BnaDFFS010,U.Nottm15_BnaDFFS010,University of Nottingham,s-00010,Hansen X Gaspard  ,,374.12
+U.Nottm15_BnaDFFS011,p_016,16,2,1,3,8,37,BnaDFFS011,BnaDFFS011,U.Nottm15_BnaDFFS011,University of Nottingham,s-00011,Inca X  Contact   ,,825.03
+U.Nottm15_BnaDFFS011,p_020,20,2,2,4,9,37,BnaDFFS011,BnaDFFS011,U.Nottm15_BnaDFFS011,University of Nottingham,s-00011,Inca X  Contact   ,,187.37
+U.Nottm15_BnaDFFS011,p_029,29,1,3,5,65,37,BnaDFFS011,BnaDFFS011,U.Nottm15_BnaDFFS011,University of Nottingham,s-00011,Inca X  Contact   ,,280.75
+U.Nottm15_BnaDFFS012,p_053,53,1,1,6,10,38,BnaDFFS012,BnaDFFS012,U.Nottm15_BnaDFFS012,University of Nottingham,s-00012,Madrigal X Recital  ,,928.88
+U.Nottm15_BnaDFFS012,p_058,58,1,2,7,11,38,BnaDFFS012,BnaDFFS012,U.Nottm15_BnaDFFS012,University of Nottingham,s-00012,Madrigal X Recital  ,,156.25
+U.Nottm15_BnaDFFS012,p_062,62,1,3,1,12,38,BnaDFFS012,BnaDFFS012,U.Nottm15_BnaDFFS012,University of Nottingham,s-00012,Madrigal X Recital  ,,1058.63
+U.Nottm15_BnaDFFS013,p_004,4,2,1,2,13,40,BnaDFFS013,BnaDFFS013,U.Nottm15_BnaDFFS013,University of Nottingham,s-00013,Major ,,831.29
+U.Nottm15_BnaDFFS013,p_012,12,2,2,3,14,40,BnaDFFS013,BnaDFFS013,U.Nottm15_BnaDFFS013,University of Nottingham,s-00013,Major ,,125.12
+U.Nottm15_BnaDFFS013,p_035,35,1,3,4,15,40,BnaDFFS013,BnaDFFS013,U.Nottm15_BnaDFFS013,University of Nottingham,s-00013,Major ,,572.4
+U.Nottm15_BnaDFFS014,p_046,46,2,1,5,66,45,BnaDFFS014,BnaDFFS014,U.Nottm15_BnaDFFS014,University of Nottingham,s-00014,Ningyou 7,,794.31
+U.Nottm15_BnaDFFS014,p_054,54,2,2,6,16,45,BnaDFFS014,BnaDFFS014,U.Nottm15_BnaDFFS014,University of Nottingham,s-00014,Ningyou 7,,94
+U.Nottm15_BnaDFFS014,p_017,17,1,3,7,17,45,BnaDFFS014,BnaDFFS014,U.Nottm15_BnaDFFS014,University of Nottingham,s-00014,Ningyou 7,,249.62
+U.Nottm15_BnaDFFS015,p_036,36,1,1,1,18,47,BnaDFFS015,BnaDFFS015,U.Nottm15_BnaDFFS015,University of Nottingham,s-00015,Rafal 1,,757.32
+U.Nottm15_BnaDFFS015,p_047,47,1,2,2,19,47,BnaDFFS015,BnaDFFS015,U.Nottm15_BnaDFFS015,University of Nottingham,s-00015,Rafal 1,,62.87
+U.Nottm15_BnaDFFS015,p_059,59,2,3,3,38,47,BnaDFFS015,BnaDFFS015,U.Nottm15_BnaDFFS015,University of Nottingham,s-00015,Rafal 1,,374.12
+U.Nottm15_BnaDFFS016,p_002,2,1,1,4,39,49,BnaDFFS016,BnaDFFS016,U.Nottm15_BnaDFFS016,University of Nottingham,s-00016,Rocket (Pst) X  Lizard   ,,720.34
+U.Nottm15_BnaDFFS016,p_007,7,1,2,5,20,49,BnaDFFS016,BnaDFFS016,U.Nottm15_BnaDFFS016,University of Nottingham,s-00016,Rocket (Pst) X  Lizard   ,,31.75
+U.Nottm15_BnaDFFS016,p_018,18,1,3,6,21,49,BnaDFFS016,BnaDFFS016,U.Nottm15_BnaDFFS016,University of Nottingham,s-00016,Rocket (Pst) X  Lizard   ,,572.4
+U.Nottm15_BnaDFFS017,p_025,25,2,1,7,22,55,BnaDFFS017 Ref2,BnaDFFS017,U.Nottm15_BnaDFFS017,University of Nottingham,s-00017,Samourai,,683.36
+U.Nottm15_BnaDFFS017,p_060,60,2,2,1,23,55,BnaDFFS017 Ref2,BnaDFFS017,U.Nottm15_BnaDFFS017,University of Nottingham,s-00017,Samourai,,343
+U.Nottm15_BnaDFFS017,p_008,8,1,3,2,24,55,BnaDFFS017 Ref2,BnaDFFS017,U.Nottm15_BnaDFFS017,University of Nottingham,s-00017,Samourai,,218.5
+U.Nottm15_BnaDFFS018,p_038,38,1,1,3,25,57,BnaDFFS018,BnaDFFS018,U.Nottm15_BnaDFFS018,University of Nottingham,s-00018,Tapidor ,,646.37
+U.Nottm15_BnaDFFS018,p_049,49,2,2,4,40,57,BnaDFFS018,BnaDFFS018,U.Nottm15_BnaDFFS018,University of Nottingham,s-00018,Tapidor ,,311.87
+U.Nottm15_BnaDFFS018,p_034,34,1,3,5,41,57,BnaDFFS018,BnaDFFS018,U.Nottm15_BnaDFFS018,University of Nottingham,s-00018,Tapidor ,,94
+U.Nottm15_BnaDFFS019,p_045,45,1,1,6,26,58,BnaDFFS019,BnaDFFS019,U.Nottm15_BnaDFFS019,University of Nottingham,s-00019,Tequilla X Aragon  ,,609.39
+U.Nottm15_BnaDFFS019,p_037,37,1,2,7,42,58,BnaDFFS019,BnaDFFS019,U.Nottm15_BnaDFFS019,University of Nottingham,s-00019,Tequilla X Aragon  ,,280.75
+U.Nottm15_BnaDFFS019,p_048,48,1,3,1,43,58,BnaDFFS019,BnaDFFS019,U.Nottm15_BnaDFFS019,University of Nottingham,s-00019,Tequilla X Aragon  ,,249.62
