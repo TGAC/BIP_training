@@ -9,7 +9,7 @@ Participants can already get familiar with the workshop material ahead of time.
 The manual [workshop_PopWizard_TrialWizard_guide.docx] (https://github.com/TGAC/BIP_training/blob/master/Workshop.07.09.2016/workshop_PopWizard_TrialWizard_guide.docx)
 also enables you to work through the exercises even outside the workshop.
 
-For doing the exercised in your own time:
+For doing the exercises in your own time:
 * contact <a href="mailto:bip@earlham.ac.uk">bip@earlham.ac.uk</a> and let us know that you would like to do the workshop
   * We will delete the mock-data you uploaded after you finished the exercises.
 * Please clone or download the repository to your computer
