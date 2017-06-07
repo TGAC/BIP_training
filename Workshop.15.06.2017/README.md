@@ -1,4 +1,4 @@
-#Information on workshop material used on the 15.06.2017
+# Information on workshop material used on the 15.06.2017
 
 The material available in this folder is for the Brassica Information Portal workshop on the 15.06.2017 at the Earlaham Institute. Sign-up and description of the workshop is available [here](http://www.earlham.ac.uk/brassica-information-portal-workshop).
 
